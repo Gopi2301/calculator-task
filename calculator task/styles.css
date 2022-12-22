@@ -13,6 +13,7 @@
     font-size: 50px;
     padding-right: 20px ;
     margin-bottom: 20px;
+    overflow-x: hidden;
 }
 button{
     /* border: 1px solid  #97A6A0; */
@@ -40,7 +41,7 @@ button{
 .calculator{
     padding:15px;
     display: grid;
-    grid-template-columns: repeat(4,68px);
+    grid-template-columns: repeat(3,68px);
     border-radius: 5px;
 
 }
@@ -50,6 +51,16 @@ button{
     display: block;
     width:110px;
     border-radius: 40px;
-    text-align: center;
-    margin: auto;
+    /* text-align: center; */
+    left:70px;
 }
+.clear {
+    /* grid-column: span 12; */
+    position: relative;
+    display: block;
+    width: 110px;
+    border-radius: 40px;
+    text-align: center;
+    right: 10px;
+}
+

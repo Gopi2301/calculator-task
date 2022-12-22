@@ -21,5 +21,11 @@ document.querySelector('body').addEventListener('keypress', (event)=>{
         display.innerText=  value_calc+event.key;
     }
 })
+function resfun (e){
+    var result =eval(display.innerText)
+    display.innerText= result
+}
 
-
+function clearfun(e){
+    display.innerText=""
+}
